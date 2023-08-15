@@ -1,23 +1,16 @@
 
-'use client'
-import { useSearchParams } from "next/navigation";
-import {useRouter} from 'next/navigation'
+ 
+import UserPost from "@/Components/UserPost";
+ import Styles from   './about.module.css'
  
 
 const page = ( ) => {
-    const router= useRouter()
-    const goTo= ()=>{
-          router.push('/profile')
-    }
-        let res= useSearchParams()
-      let name=  res.get('name')
-      let email= res.get('email')
+    
+      
     return (
-        <div>
-            <h2>About Page </h2>
-            <h3> {name} </h3>
-            <h3>  {email} </h3>
-          <button onClick={goTo}> push  </button>
+        <div className="container mx-auto">
+            <h2 className={Styles.heading}>About Page </h2>
+            <UserPost/>
         </div>
     );
 };

@@ -87,13 +87,14 @@ const TopNav = () => {
               className={
                 currentPath === '/about' ? 'active-link' : 'pending-link'
               }
-               href={{
-                  pathname: '/about',
-                  query: { name: 'kamal', email: 'alshohid1997@gmail.com' },
-                }}
+              href="/about"
+              //  href={{
+              //     pathname: '/about',
+              //     query: { name: 'kamal', email: 'alshohid1997@gmail.com' },
+              //   }}
             >
               {' '}
-              About{' '}
+              Blog{' '}
             </Link>
           </li>
           <li>
@@ -105,7 +106,7 @@ const TopNav = () => {
               href="/profile"
             >
               {' '}
-              Profile{' '}
+              Product{' '}
             </Link>
           </li>
         </ul>
