@@ -9,10 +9,7 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'My next Second App',
-  description: 'This application is created by me ',
-}
+ 
 
 export default function RootLayout({ children }) {
   return (
