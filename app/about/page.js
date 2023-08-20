@@ -4,7 +4,7 @@ import UserPost from "@/Components/UserPost";
  import Styles from   './about.module.css'
  
 
-const page = ( ) => {
+const page = () => {
     
       
     return (

@@ -2,7 +2,7 @@
 import Link from 'next/link'
 const page = () => {
   return (
-     <div className="h-screen flex items-center justify-center">
+     <div className=" h-screen flex items-center justify-center">
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover filter blur-md"
