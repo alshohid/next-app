@@ -1,9 +1,1 @@
-1.node_modules: This folder contains all the dependencies installed for our project using npm.
-2.public: This is where you put your static assets, like images, fonts, and other files that should be publicly accessible.
-3.components: This directory holds reusable components that can be used across multiple pages.
-4.utils: This directory can contain utility functions, API clients, helper classes, etc.
-5.package.json: This file holds metadata about our project and its dependencies.
-6.Layout:  Layouts are often used to wrap the content of a page with common elements such as headers, footers, navigation menus, and other UI components that are shared across multiple pages.
-7.next.config.js: Configuration file for Next.js. 
-8.api (Optional): This is a powerful feature of Next.js that lets you create serverless API endpoints
-9.tailwind.config.js: Configuration file for tailwind css. 
+ https://next-app-alshohid.vercel.app/
