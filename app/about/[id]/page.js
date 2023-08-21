@@ -1,6 +1,8 @@
+ 
+import Comments from "@/Components/Comments";
 import getSingleComment from "@/lib/getSingleComment";
 import getSinglePost from "@/lib/getSinglePost";
-import Comments from '@/Components/Comments'
+ 
 import { Suspense } from "react";
 
 const SingleBlogPost = async ({params}) =>{
@@ -15,7 +17,7 @@ const SingleBlogPost = async ({params}) =>{
             <h3> {post.body} </h3>
             <div>
                 <Suspense fallback={<h1>Loading Comments  ...</h1>}>
-                    <Comments commentPromise={commentsPromise} />
+                    <Comments commentsPromise={commentsPromise} />
                     
                  </Suspense>
                 

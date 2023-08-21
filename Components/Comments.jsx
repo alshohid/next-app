@@ -1,8 +1,9 @@
-const Comments = ({ commentPromise }) => {
+const Comments = async ({ commentsPromise }) => {
+  const comments = await commentsPromise
   return (
     <div className="text-center ">
       <h1 className="font-bold text-lg"> Post Comments </h1>
-      {commentPromise.map((comment) => {
+      {comments.map((comment) => {
         return (
           <div key={comment.id}>
             <h2> {comment.body} </h2>
@@ -12,3 +13,4 @@ const Comments = ({ commentPromise }) => {
     </div>
   )
 }
+export default Comments
